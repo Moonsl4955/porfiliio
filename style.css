@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+   
  
+ 
+}
+html{
+       scroll-behavior: smooth;
+    
 }
 a{
     display: block;
@@ -147,4 +152,160 @@ li{
     font-size: 20px;
 
     margin-top: 15px;
+}
+
+.skills{
+    width: 100%;
+    height: 600px;
+
+    background-color: rgb(244, 250, 244);
+    margin-top: 100px;
+    padding-top: 50px;
+
+}
+.box{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.skills h1,.project h1{
+
+    font-size: 30px;
+    color: #7bca7b;
+
+}
+.skills h2,.project h2{
+
+    font-size: 45px;
+
+
+}
+.contents{
+    width: 1200px;
+    height: 400px;
+
+    margin: 0 auto;
+    
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+
+}
+.contents li{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+
+    transition: 0.3s;
+   
+}
+.skills .contents li:hover,.project .contents li:hover{
+    background-color: #95d895;
+    color: white;
+}
+.contents h3{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+
+}
+.contents h4{
+    font-weight: normal;
+    padding: 15px;
+
+}
+.back{
+    height: 650px;
+    background: url(backimg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+.project{
+    width: 100%;
+    height: 600px;
+
+    background-color: rgb(252, 242, 248);
+    padding-top: 50px;
+    
+
+}
+.contact{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+.contact h1{
+    font-size: 30px;
+    color: #7bca7b;
+}
+.contact h2{
+    font-size: 45px;
+
+}
+.contact_box{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+}
+.contact_box .left{
+    width: 400px;
+    height: 600px;
+
+}
+
+.info{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 20px;
+
+    border: 0.8px solid rgb(207, 207, 207);
+}
+.info h3{
+    font-size: 25px;
+}
+.info h4{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.contact_box .right{
+    width: 800px;
+    height: 600px;
+
+    border: 0.8px solid rgb(207, 207, 207);
+    padding: 25px;
+}
+.contact_box .right h6{
+    height: 20px;
+    font-weight: normal;
+    margin-top: 20px;
+
+}
+.contact_box .right input{
+    width: 100%;
+    border: 1px solid  rgb(207, 207, 207);
+    height: 30px;
+    border-radius: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid  rgb(207, 207, 207);
+    height: 300px;
+    border-radius: 10px;
+
+}
+.contact button{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    background-color: #a6daad;
+    color: white;
+    margin-top: 10px;
 }
